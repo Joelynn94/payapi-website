@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;700&display=swap');
+:root {
+  /* Font Family */
+  --font-dm-serif: 'DM Serif Display', serif;
+  --font-public-sans: 'Public Sans', sans-serif;
+
+  /* Font sizes */
+  --font-body: 1rem;
+  --font-h1-large: 4.5rem;
+  --font-h1: 3.5rem;
+  --font-h2: 3rem;
+  --font-h3-large: 2rem;
+  --font-h3: 1.125rem;
+  --font-h4: 1.5rem;
+
+  /* Line heights */
+  --line-height-body: 1.75rem;
+  --line-height-h1-large: 4.5rem;
+  --line-height-h1: 3.5rem;
+  --line-height-h2: 3.5rem;
+  --line-height-h3: 2.5rem;
+  --line-height-h3: 1.5rem;
+  --line-height-h4: 2rem;
+
+  /* Basic spacing */
+  --padding-xs: 1.5rem;
+  --padding-sm: 2rem;
+  --padding-md: 2.5rem;
+  --padding-lg: 3.125rem;
+  --padding-xl: 3.75rem;
+  --padding-2xl: 4.375rem;
+  --section-padding: 6.25rem;
+  --section-margin: 9.375rem;
+
+  /* Screen sizes */
+  --screen-xs: 300px;
+  --screen-sm: 576px;
+  --screen-md: 768px;
+  --screen-lg: 992px;
+  --screen-xl: 1200px;
+
+  /* Primary color */
+  --primary: #ba4270;
+  --primary-accent: #939bf4;
+  /* Text */
+  --dark-text: #36536b;
+  --light-text: #fbfcfe;
+  --accent-text: #6c8294;
+  --faded-text: #b9bec2;
+  /* Backgrounds */
+  --dark-background: #1b262f;
+  --light-background: #edf3f8;
+  /* Buttons */
+  --primary-button-background: #ba4270;
+  --primary-button-hover: #da6d97;
+  --primary-button-disabled: #ba4270;
+  --secondary-button-background: #edf3f8;
+  --secondary-button-hover: #36536b;
+  --secondary-button-disabled: #9aa9b5;
+  --dark-button: #1b262f;
+  --dark-button-hover: #ffffff;
+  --dark-button-disabled: #fbfcfe;
+  /* Checkbox */
+  --checkbox-background: rgba(54, 83, 107, 0.25);
+  --checkbox-active-background: #ba4270;
+  --checkbox-disabled-background: rgba(54, 83, 107, 0.05);
+  /* Other colors */
+  --tertiary: #404b56;
+  /* Error state */
+  --danger: #ff0000;
+  --danger-hover: #ff6976;
+  /* Success State */
+  --success: #258c53;
+  --success-hover: #7cba98;
+}

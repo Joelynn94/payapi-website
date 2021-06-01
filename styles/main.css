@@ -1,0 +1,14 @@
+@import url('reset.css');
+@import url('config.css');
+@import url('utilities.css');
+@import url('./components/navigation.css');
+@import url('./components/button.css');
+
+img {
+  width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
