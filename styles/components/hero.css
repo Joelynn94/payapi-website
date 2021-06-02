@@ -1,0 +1,18 @@
+.homepage-hero {
+}
+
+.homepage-hero__header {
+}
+
+.homepage-hero__tagline {
+  font-size: var(--font-h3-large);
+  line-height: var(--line-height-h4);
+  color: var(--dark-text);
+  text-align: center;
+}
+
+.homepage-hero__img {
+  margin-left: 1rem;
+  margin-bottom: -3rem;
+  margin-top: -2rem;
+}
