@@ -17,7 +17,6 @@
   /* Line heights */
   --line-height-body: 1.75rem;
   --line-height-h1-large: 4.5rem;
-  --line-height-h1: 3.5rem;
   --line-height-h2: 3.5rem;
   --line-height-h3-large: 2.5rem;
   --line-height-h3: 1.5rem;
@@ -48,6 +47,7 @@
   --light-text: #fbfcfe;
   --accent-text: #6c8294;
   --faded-text: #b9bec2;
+  --faded-link-text: #657c8f;
   --input-placeholder: rgba(54, 83, 107, 0.5);
   /* Backgrounds */
   --dark-background: #1b262f;

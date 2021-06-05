@@ -14,25 +14,48 @@
   margin-top: 0;
 }
 
+@media (min-width: 768px) {
+  .homepage-hero__tagline {
+    font-size: var(--font-h2);
+    line-height: var(--line-height-h2);
+    max-width: 550px;
+  }
+}
+
 .homepage-hero__img {
-  height: 300px;
   width: 198px;
   margin-left: 1rem;
   flex: 1;
 }
 
-.homepage-hero__form {
+@media (min-width: 768px) {
+  .homepage-hero__img {
+    width: 300px;
+  }
+}
+
+.hero-form {
   width: 100%;
   display: flex;
   flex-direction: column;
+  position: relative;
+  max-width: 550px;
 }
 
-.homepage-hero__form--small {
+@media (min-width: 768px) {
+  .hero-form__button {
+    position: absolute;
+    top: 15px;
+    right: 0;
+  }
+}
+
+.hero-form__small {
   font-size: 1rem;
   color: var(--accent-text);
   margin: 24px auto;
 }
 
-.homepage-hero__form--span {
+.hero-form__span {
   font-weight: bold;
 }
