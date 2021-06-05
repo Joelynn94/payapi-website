@@ -4,6 +4,11 @@
 @import url('./components/navigation.css');
 @import url('./components/button.css');
 @import url('./components/hero.css');
+@import url('./components/input.css');
+
+* {
+  box-sizing: border-box;
+}
 
 img {
   width: 100%;
@@ -16,9 +21,10 @@ ul {
 
 body {
   background-color: var(--light-background);
+  font-family: var(--font-public-sans);
 }
 
 .header-wrapper {
   background: url('../../assets/shared/desktop/bg-pattern-circle.svg') no-repeat
-    center -27rem;
+    center -32rem;
 }
