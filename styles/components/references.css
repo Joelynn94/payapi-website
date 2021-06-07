@@ -1,0 +1,80 @@
+.references {
+  background: url('../../assets/shared/desktop/bg-pattern-circle.svg') no-repeat
+    center -37rem;
+  background-color: var(--dark-background);
+  color: var(--light-text);
+  padding: 80px 0;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .references {
+    background: url('../../assets/shared/desktop/bg-pattern-circle.svg')
+      no-repeat center -34rem;
+    background-color: var(--dark-background);
+    color: var(--light-text);
+    padding: 80px 0;
+    text-align: center;
+  }
+}
+
+.references-logos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+  .references-logos {
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 65px;
+    gap: 3.5rem;
+  }
+}
+
+.references-description__heading {
+  font-size: var(--font-h3-large);
+}
+
+@media (min-width: 768px) {
+  .references-description__heading {
+    font-size: var(--font-h2);
+  }
+}
+
+.references-description__copy {
+  color: var(--faded-text);
+  line-height: var(--line-height-body);
+  max-width: 375px;
+  margin: auto;
+  margin-bottom: var(--spacing-lg);
+}
+
+@media (min-width: 768px) {
+  .references-description__copy {
+    max-width: 450px;
+  }
+}
+
+.tesla,
+.microsoft,
+.hewlett-packard,
+.oracle,
+.google,
+.nividia {
+  transform: scale(0.8);
+}
+
+@media (min-width: 768px) {
+  .tesla,
+  .microsoft,
+  .hewlett-packard,
+  .oracle,
+  .google,
+  .nividia {
+    transform: scale(1);
+  }
+}

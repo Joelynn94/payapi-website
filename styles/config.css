@@ -6,31 +6,31 @@
   --font-public-sans: 'Public Sans', sans-serif;
 
   /* Font sizes */
-  --font-body: 1rem;
-  --font-h1-large: 4.5rem;
-  --font-h1: 3.5rem;
-  --font-h2: 3rem;
-  --font-h3-large: 2rem;
-  --font-h3: 1.125rem;
-  --font-h4: 1.5rem;
+  --font-body: 1rem; /* 16px */
+  --font-h1-large: 4.5rem; /* 72px */
+  --font-h1: 3.5rem; /* 56px */
+  --font-h2: 3rem; /* 48px */
+  --font-h3-large: 2rem; /* 32px */
+  --font-h3: 1.125rem; /* 18px */
+  --font-h4: 1.5rem; /* 24px */
 
   /* Line heights */
-  --line-height-body: 1.75rem;
-  --line-height-h1-large: 4.5rem;
-  --line-height-h2: 3.5rem;
-  --line-height-h3-large: 2.5rem;
-  --line-height-h3: 1.5rem;
-  --line-height-h4: 2rem;
+  --line-height-body: 1.75rem; /* 28px */
+  --line-height-h1-large: 4.5rem; /* 72px */
+  --line-height-h2: 3.5rem; /* 56px */
+  --line-height-h3-large: 2.5rem; /* 40px */
+  --line-height-h3: 1.5rem; /* 24px */
+  --line-height-h4: 2rem; /* 32px */
 
   /* Basic spacing */
-  --padding-xs: 1.5rem;
-  --padding-sm: 2rem;
-  --padding-md: 2.5rem;
-  --padding-lg: 3.125rem;
-  --padding-xl: 3.75rem;
-  --padding-2xl: 4.375rem;
-  --section-padding: 6.25rem;
-  --section-margin: 9.375rem;
+  --spacing-xs: 1.5rem; /* 24px */
+  --spacing-sm: 2rem; /* 32px */
+  --spacing-md: 2.5rem; /* 40px */
+  --spacing-lg: 3.125rem; /* 50px */
+  --spacing-xl: 3.75rem; /* 60px */
+  --spacing-2xl: 5rem; /* 80px */
+  --section-padding: 6.25rem; /* 100px */
+  --section-margin: 9.375rem; /* 150px */
 
   /* Screen sizes */
   --screen-xs: 300px;

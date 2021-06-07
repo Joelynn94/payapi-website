@@ -14,3 +14,19 @@
   color: var(--light-text);
   padding: 16px 26px;
 }
+
+.primary:hover {
+  background-color: var(--primary-button-hover);
+}
+
+.secondary {
+  background-color: transparent;
+  color: var(--light-text);
+  border: 1px solid var(--light-text);
+  padding: 16px 26px;
+}
+
+.secondary:hover {
+  background-color: var(--light-background);
+  color: var(--dark-text);
+}

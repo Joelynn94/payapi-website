@@ -2,9 +2,10 @@
 @import url('config.css');
 @import url('utilities.css');
 @import url('./components/button.css');
-@import url('./components/hero.css');
 @import url('./components/input.css');
 @import url('./components/navigation.css');
+@import url('./components/hero.css');
+@import url('./components/references.css');
 
 * {
   box-sizing: border-box;
