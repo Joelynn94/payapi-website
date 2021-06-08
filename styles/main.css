@@ -36,3 +36,10 @@ body {
       no-repeat center -24rem;
   }
 }
+
+@media (min-width: 1200px) {
+  .header-wrapper {
+    background: url('../../assets/shared/desktop/bg-pattern-circle.svg')
+      no-repeat calc(67% + 425px) -154px;
+  }
+}

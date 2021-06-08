@@ -9,6 +9,7 @@
   font-size: 1rem;
   font-weight: bold;
   position: relative;
+  color: var(--dark-text);
 }
 
 .input::placeholder {

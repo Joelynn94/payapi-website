@@ -18,6 +18,55 @@
   }
 }
 
+@media (min-width: 1200px) {
+  .references {
+    background: url('../../assets/shared/desktop/bg-pattern-circle.svg')
+      no-repeat -69% -315px;
+    background-color: var(--dark-background);
+    color: var(--light-text);
+    padding: 80px 0;
+    text-align: center;
+    display: flex;
+  }
+}
+
+@media (min-width: 1300px) {
+  .references {
+    background: url('../../assets/shared/desktop/bg-pattern-circle.svg')
+      no-repeat -55% -315px;
+    background-color: var(--dark-background);
+    color: var(--light-text);
+    padding: 80px 0;
+    text-align: center;
+    display: flex;
+  }
+}
+
+@media (min-width: 1400px) {
+  .references {
+    background: url('../../assets/shared/desktop/bg-pattern-circle.svg')
+      no-repeat -45% -315px;
+    background-color: var(--dark-background);
+    color: var(--light-text);
+    padding: 80px 0;
+    text-align: center;
+    display: flex;
+  }
+}
+
+@media (min-width: 1200px) {
+  .references__wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 130px;
+  }
+
+  .references-description {
+    text-align: left;
+    flex: 2;
+  }
+}
+
 .references-logos {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -32,6 +81,14 @@
     grid-template-columns: repeat(3, 1fr);
     margin-bottom: 65px;
     gap: 3.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .references-logos {
+    gap: 3rem;
+    margin: auto;
+    flex: 1;
   }
 }
 

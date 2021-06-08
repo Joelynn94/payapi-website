@@ -16,7 +16,7 @@
 
   <body>
     <header class="header-wrapper">
-      <nav class="navigation">
+      <nav class="navigation container">
         <!-- Logo -->
         <a href="/" class="navigation__logo">
           <img src="./assets//shared/desktop/logo.svg" alt="payapi logo" />
@@ -54,29 +54,31 @@
           src="./assets//home/desktop/illustration-phone-mockup.svg"
           alt="illustration mockup"
         />
-        <h1 class="homepage-hero__tagline">
-          Start building with our APIs for absolutely free.
-        </h1>
-        <form class="hero-form">
-          <input
-            class="input"
-            type="email"
-            name="email"
-            placeholder="Enter email address"
-          />
-          <button class="hero-form__button button primary" type="submit">
-            Schedule a Demo
-          </button>
-          <small class="hero-form__small"
-            >Have any questions?
-            <span class="hero-form__span">Contact Us</span>
-          </small>
-        </form>
+        <div class="homepage-hero__left">
+          <h1 class="homepage-hero__tagline">
+            Start building with our APIs for absolutely free.
+          </h1>
+          <form class="hero-form">
+            <input
+              class="input"
+              type="email"
+              name="email"
+              placeholder="Enter email address"
+            />
+            <button class="hero-form__button button primary" type="submit">
+              Schedule a Demo
+            </button>
+            <small class="hero-form__small"
+              >Have any questions?
+              <span class="hero-form__span">Contact Us</span>
+            </small>
+          </form>
+        </div>
       </section>
     </header>
     <main>
       <section class="references">
-        <div class="container">
+        <div class="container references__wrapper">
           <div class="references-logos">
             <svg
               class="tesla"
