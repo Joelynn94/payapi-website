@@ -6,6 +6,13 @@
   margin-bottom: var(--spacing-xl);
 }
 
+@media (min-width: 1200px) {
+  .ready__wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
 .ready__heading {
   font-size: var(--font-h3-large);
   line-height: var(--line-height-h4);
