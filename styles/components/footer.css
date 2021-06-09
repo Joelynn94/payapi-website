@@ -80,6 +80,10 @@
   gap: var(--spacing-xs);
 }
 
+.footer-social__link {
+  padding: 0.5rem;
+}
+
 .footer-social__link:hover path {
   fill: var(--primary);
 }
