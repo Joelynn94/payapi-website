@@ -6,13 +6,17 @@
 @import url('./components/navigation.css');
 @import url('./components/hero.css');
 @import url('./components/references.css');
+@import url('./components/easy.css');
+@import url('./components/simple.css');
+@import url('./components/benefits.css');
+@import url('./components/ready.css');
 
 * {
   box-sizing: border-box;
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
 }
 
 ul {
@@ -22,6 +26,16 @@ ul {
 
 body {
   background-color: var(--light-background);
+  font-family: var(--font-public-sans);
+}
+
+p {
+  line-height: var(--line-height-body);
+}
+
+h1,
+h2,
+h3 {
   font-family: var(--font-public-sans);
 }
 

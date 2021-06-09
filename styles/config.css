@@ -10,7 +10,7 @@
   --font-h1-large: 4.5rem; /* 72px */
   --font-h1: 3.5rem; /* 56px */
   --font-h2: 3rem; /* 48px */
-  --font-h3-large: 2rem; /* 32px */
+  --font-h3-large: 2.25rem; /* 36px */
   --font-h3: 1.125rem; /* 18px */
   --font-h4: 1.5rem; /* 24px */
 
@@ -20,13 +20,13 @@
   --line-height-h2: 3.5rem; /* 56px */
   --line-height-h3-large: 2.5rem; /* 40px */
   --line-height-h3: 1.5rem; /* 24px */
-  --line-height-h4: 2rem; /* 32px */
+  --line-height-h4: 2.25rem; /* 36px */
 
   /* Basic spacing */
   --spacing-xs: 1.5rem; /* 24px */
   --spacing-sm: 2rem; /* 32px */
   --spacing-md: 2.5rem; /* 40px */
-  --spacing-lg: 3.125rem; /* 50px */
+  --spacing-lg: 3rem; /* 48px */
   --spacing-xl: 3.75rem; /* 60px */
   --spacing-2xl: 5rem; /* 80px */
   --section-padding: 6.25rem; /* 100px */

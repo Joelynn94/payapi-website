@@ -13,7 +13,7 @@
       no-repeat center -34rem;
     background-color: var(--dark-background);
     color: var(--light-text);
-    padding: 80px 0;
+    padding: var(--section-padding) 0;
     text-align: center;
   }
 }
@@ -104,7 +104,6 @@
 
 .references-description__copy {
   color: var(--faded-text);
-  line-height: var(--line-height-body);
   max-width: 375px;
   margin: auto;
   margin-bottom: var(--spacing-lg);

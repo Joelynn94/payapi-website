@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 60px;
+  margin-bottom: var(--spacing-xl);
 }
 
 @media (min-width: 768px) {
@@ -54,7 +54,7 @@
 
 .homepage-hero__img {
   width: 198px;
-  margin-left: 1rem;
+  margin-left: 1.5rem;
   flex: 1;
 }
 

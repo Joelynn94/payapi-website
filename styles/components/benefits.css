@@ -1,0 +1,26 @@
+.benefits {
+  padding: var(--spacing-xl) 0px;
+  text-align: center;
+}
+
+.benefits__wrapper {
+  display: grid;
+  gap: var(--spacing-lg);
+}
+
+@media (min-width: 768px) {
+  .benefits__wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+}
+
+.benefit-card__heading {
+  color: var(--dark-text);
+  font-size: var(--font-h3);
+  font-weight: bold;
+}
+
+.benefit-card__copy {
+  color: var(--accent-text);
+}
