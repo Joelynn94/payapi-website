@@ -1,3 +1,7 @@
+.ready {
+  padding: var(--spacing-xl) 0px;
+}
+
 .ready__wrapper {
   display: flex;
   flex-direction: column;
