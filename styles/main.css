@@ -10,6 +10,7 @@
 @import url('./components/simple.css');
 @import url('./components/benefits.css');
 @import url('./components/ready.css');
+@import url('./components/footer.css');
 
 * {
   box-sizing: border-box;
@@ -39,6 +40,7 @@ h3 {
   font-family: var(--font-public-sans);
 }
 
+/* header background pattern */
 .header-wrapper {
   background: url('../../assets/shared/desktop/bg-pattern-circle.svg') no-repeat
     center -32rem;
@@ -54,6 +56,21 @@ h3 {
 @media (min-width: 1200px) {
   .header-wrapper {
     background: url('../../assets/shared/desktop/bg-pattern-circle.svg')
-      no-repeat calc(67% + 425px) -154px;
+      no-repeat calc(67% + 425px) -10rem;
+  }
+}
+
+/* Main background pattern */
+@media (min-width: 1200px) {
+  .main {
+    background: url('../../assets/shared/desktop/bg-pattern-circle.svg')
+      no-repeat calc(120% + 425px) 940px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .main {
+    background: url('../../assets/shared/desktop/bg-pattern-circle.svg')
+      no-repeat calc(106% + 425px) 940px;
   }
 }
