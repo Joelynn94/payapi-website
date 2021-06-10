@@ -81,6 +81,23 @@
   }
 }
 
+@media (min-width: 1200px) {
+  .navigation__item:nth-child(1) {
+    padding: 0;
+    border-top: none;
+    margin-left: var(--spacing-lg);
+  }
+
+  .navigation__item:nth-child(3) {
+    margin-right: 0;
+  }
+
+  .navigation__item:last-child {
+    margin-left: auto;
+    justify-content: flex-end;
+  }
+}
+
 .navigation__item {
   padding: 1.5rem 0;
   align-self: center;

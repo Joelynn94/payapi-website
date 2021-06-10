@@ -25,9 +25,16 @@ ul {
   padding: 0;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   background-color: var(--light-background);
   font-family: var(--font-public-sans);
+  display: flex;
+  flex-direction: column;
 }
 
 p {
@@ -58,6 +65,10 @@ h3 {
     background: url('../../assets/shared/desktop/bg-pattern-circle.svg')
       no-repeat calc(67% + 425px) -10rem;
   }
+}
+
+main {
+  flex: 1 0 auto;
 }
 
 /* Main background pattern */
