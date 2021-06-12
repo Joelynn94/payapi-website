@@ -21,12 +21,24 @@
 
 .secondary {
   background-color: transparent;
-  color: var(--light-text);
-  border: 1px solid var(--light-text);
+  color: var(--secondary-button-text);
+  border: 1px solid var(--secondary-button-text);
   padding: 16px 26px;
 }
 
 .secondary:hover {
-  background-color: var(--light-background);
-  color: var(--dark-text);
+  background-color: var(--secondary-button-background-hover);
+  color: var(--secondary-button-hover-text);
+}
+
+.dark-button {
+  background-color: transparent;
+  color: var(--dark-button-text);
+  padding: 16px 26px;
+  border: 1px solid var(--dark-button-text);
+}
+
+.dark-button:hover {
+  background-color: var(--dark-button-background-hover);
+  color: var(--dark-button-hover-text);
 }

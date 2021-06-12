@@ -57,17 +57,21 @@
   --primary-button-hover: #da6d97;
   --primary-button-disabled: #ba4270;
   --secondary-button-background: #edf3f8;
-  --secondary-button-hover: #36536b;
-  --secondary-button-disabled: #9aa9b5;
-  --dark-button: #1b262f;
-  --dark-button-hover: #ffffff;
-  --dark-button-disabled: #fbfcfe;
+  --secondary-button-text: #ffffff;
+  --secondary-button-background-hover: #ffffff;
+  --secondary-button-hover-text: #1b262f;
+  --secondary-button-disabled: #fbfcfe;
+  --dark-button-text: #36536b;
+  --dark-button-background-hover: #36536b;
+  --dark-button-hover-text: #ffffff;
+  --dark-button-disabled: #9aa9b5;
   /* Checkbox */
   --checkbox-background: rgba(54, 83, 107, 0.25);
   --checkbox-active-background: #ba4270;
   --checkbox-disabled-background: rgba(54, 83, 107, 0.05);
   /* Other colors */
   --tertiary: #404b56;
+  --border-color: #bfcbd5;
   /* Error state */
   --danger: #ff0000;
   --danger-hover: #ff6976;
