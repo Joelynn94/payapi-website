@@ -48,6 +48,7 @@
   --accent-text: #6c8294;
   --faded-text: #b9bec2;
   --faded-link-text: #657c8f;
+  --tertiary-text: #6d8395;
   --input-placeholder: rgba(54, 83, 107, 0.5);
   /* Backgrounds */
   --dark-background: #1b262f;
@@ -70,7 +71,7 @@
   --checkbox-active-background: #ba4270;
   --checkbox-disabled-background: rgba(54, 83, 107, 0.05);
   /* Other colors */
-  --tertiary: #404b56;
+  --tertiary: #6d8395;
   --border-color: #bfcbd5;
   /* Error state */
   --danger: #ff0000;

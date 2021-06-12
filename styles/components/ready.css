@@ -18,8 +18,10 @@
 }
 
 .ready__heading {
+  font-family: var(--font-dm-serif);
   font-size: var(--font-h3-large);
   line-height: var(--line-height-h4);
+  letter-spacing: 1.25px;
   color: var(--dark-text);
   text-align: center;
 }

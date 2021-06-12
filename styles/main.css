@@ -12,6 +12,7 @@
 @import url('./components/ready.css');
 @import url('./components/footer.css');
 @import url('./components/pricing.css');
+@import url('./components/about.css');
 
 * {
   box-sizing: border-box;
