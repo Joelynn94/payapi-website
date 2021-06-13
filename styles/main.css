@@ -13,6 +13,7 @@
 @import url('./components/footer.css');
 @import url('./components/pricing.css');
 @import url('./components/about.css');
+@import url('./components/contact.css');
 
 * {
   box-sizing: border-box;
