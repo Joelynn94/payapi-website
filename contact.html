@@ -49,10 +49,12 @@
       </nav>
     </header>
     <main class="contact-main">
-      <div class="container contact__wrapper">
-        <h1 class="about__heading">
+      <div class="container">
+        <h1 class="contact__heading">
           Submit a help request and we’ll get in touch shortly.
         </h1>
+      </div>
+      <div class="container contact__wrapper">
         <section id="contact" class="contact">
           <form class="contact__form">
             <div class="contact__form-group">
@@ -97,13 +99,25 @@
               ></textarea>
             </div>
             <div class="contact__form-group">
-              <input id="stay-up-to-date" type="checkbox" />
-              <label for="stay-up-to-date"
-                >Stay up-to-date with company announcements and updates to our
-                API</label
-              >
+              <label for="stay-up-to-date" class="form-group__label">
+                <input
+                  id="stay-up-to-date"
+                  type="checkbox"
+                  class="form-group__checkbox"
+                />
+                <span class="form-group__checkmark"></span>
+                <span class="form-group__checkbox-text"
+                  >Stay up-to-date with company announcements and updates to our
+                  API</span
+                >
+              </label>
             </div>
-            <button type="submit" class="button dark-button">Submit</button>
+            <button
+              type="submit"
+              class="button dark-button form-group__contact-button"
+            >
+              Submit
+            </button>
           </form>
         </section>
         <section class="contact-references">

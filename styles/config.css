@@ -70,7 +70,7 @@
   --dark-button-hover-text: #ffffff;
   --dark-button-disabled: #9aa9b5;
   /* Checkbox */
-  --checkbox-background: rgba(54, 83, 107, 0.25);
+  --checkbox-background: #bfcbd5;
   --checkbox-active-background: #ba4270;
   --checkbox-disabled-background: rgba(54, 83, 107, 0.05);
   /* Other colors */
