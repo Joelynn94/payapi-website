@@ -110,6 +110,17 @@
   color: var(--dark-text);
   background-color: transparent;
   resize: none;
+  outline: none;
+  outline: none;
+  font-weight: lighter;
+}
+
+.form-group__input:focus {
+  border-bottom: 1px solid var(--secondary);
+}
+
+.form-group__input:focus-visible {
+  border-bottom: 1px solid var(--secondary);
 }
 
 .form-group__input::placeholder {
@@ -179,4 +190,13 @@
 
 .form-group__contact-button {
   width: 150px;
+}
+
+.error {
+  border-bottom: 1px solid var(--danger);
+  color: var(--danger);
+}
+
+.danger {
+  color: var(--danger);
 }
