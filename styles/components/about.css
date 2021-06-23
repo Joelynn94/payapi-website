@@ -1,3 +1,66 @@
+/* About body background */
+.about-body {
+  background: var(--light-background)
+    url('../../assets/shared/desktop/bg-pattern-circle.svg') no-repeat
+    calc(60% + 300px) -630px;
+}
+
+@media (min-width: 768px) {
+  .about-body {
+    background: var(--light-background)
+      url('../../assets/shared/desktop/bg-pattern-circle.svg') no-repeat
+      calc(-150% + 640px) -445px;
+  }
+}
+
+@media (min-width: 925px) {
+  .about-body {
+    background: var(--light-background)
+      url('../../assets/shared/desktop/bg-pattern-circle.svg') no-repeat
+      calc(-65% + 640px) -445px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .about-body {
+    background: var(--light-background)
+      url('../../assets/shared/desktop/bg-pattern-circle.svg') no-repeat
+      calc(-15% + 640px) -445px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .about-body {
+    background: var(--light-background)
+      url('../../assets/shared/desktop/bg-pattern-circle.svg') no-repeat
+      calc(18% + 640px) -445px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about-body {
+    background: var(--light-background)
+      url('../../assets/shared/desktop/bg-pattern-circle.svg') no-repeat
+      calc(0% + 630px) -500px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .about-body {
+    background: var(--light-background)
+      url('../../assets/shared/desktop/bg-pattern-circle.svg') no-repeat
+      calc(25% + 630px) -500px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .about-body {
+    background: var(--light-background)
+      url('../../assets/shared/desktop/bg-pattern-circle.svg') no-repeat
+      calc(35% + 630px) -500px;
+  }
+}
+
 .about-main {
   text-align: center;
 }

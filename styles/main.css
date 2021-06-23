@@ -50,16 +50,21 @@ h3 {
   font-family: var(--font-public-sans);
 }
 
+main {
+  flex: 1 0 auto;
+}
+
 /* header background pattern */
 .header-wrapper {
   background: url('../../assets/shared/desktop/bg-pattern-circle.svg') no-repeat
-    center -32rem;
+    center -30rem;
 }
 
 @media (min-width: 768px) {
   .header-wrapper {
     background: url('../../assets/shared/desktop/bg-pattern-circle.svg')
-      no-repeat center -24rem;
+      no-repeat center -50rem;
+    background-size: 150%;
   }
 }
 
@@ -68,10 +73,6 @@ h3 {
     background: url('../../assets/shared/desktop/bg-pattern-circle.svg')
       no-repeat calc(67% + 425px) -10rem;
   }
-}
-
-main {
-  flex: 1 0 auto;
 }
 
 /* Main background pattern */
