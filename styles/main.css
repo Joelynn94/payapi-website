@@ -56,38 +56,39 @@ main {
 
 /* header background pattern */
 .index-body {
-  background: url('../../assets/shared/desktop/bg-pattern-circle.svg') no-repeat
-    center -30rem;
+  background: var(--light-background)
+    url('../../assets/shared/desktop/bg-pattern-circle.svg') no-repeat center -30rem;
 }
 
 @media (min-width: 768px) {
   .index-body {
-    background: url('../../assets/shared/desktop/bg-pattern-circle.svg')
-      no-repeat center -48rem;
+    background: var(--light-background)
+      url('../../assets/shared/desktop/bg-pattern-circle.svg') no-repeat center -48rem;
     background-size: 150%;
   }
 }
 
 @media (min-width: 830px) {
   .index-body {
-    background: url('../../assets/shared/desktop/bg-pattern-circle.svg')
-      no-repeat center -60rem;
+    background: var(--light-background)
+      url('../../assets/shared/desktop/bg-pattern-circle.svg') no-repeat center -60rem;
     background-size: 150%;
   }
 }
 
 @media (min-width: 992px) {
   .index-body {
-    background: url('../../assets/shared/desktop/bg-pattern-circle.svg')
-      no-repeat center -68rem;
+    background: var(--light-background)
+      url('../../assets/shared/desktop/bg-pattern-circle.svg') no-repeat center -68rem;
     background-size: 150%;
   }
 }
 
 @media (min-width: 1200px) {
   .index-body {
-    background: url('../../assets/shared/desktop/bg-pattern-circle.svg')
-      no-repeat calc(67% + 425px) -10rem;
+    background: var(--light-background)
+      url('../../assets/shared/desktop/bg-pattern-circle.svg') no-repeat
+      calc(67% + 425px) -10rem;
   }
 }
 
