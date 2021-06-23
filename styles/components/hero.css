@@ -18,7 +18,6 @@
 @media (min-width: 1200px) {
   .homepage-hero {
     flex-direction: row-reverse;
-    margin-top: var(--spacing-md);
   }
 
   .homepage-hero__left {
